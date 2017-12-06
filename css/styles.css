@@ -1,0 +1,134 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: 960px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #404041;
+  font-size: 20px; 
+  text-align: center;
+  width: 960px;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+article {
+  width: 320px;
+  position: relative;
+  left: 320px;
+}
+
+section {
+  display: inline-block;
+  width: 315px;
+  text-align: center;
+}
+
+#titlenumber {
+  color: #ED458B;
+  padding-right: 15px;
+}
+
+#titleguesser {
+  color: #E6E7E8;
+  font-weight: lighter;
+}
+
+#userguess {
+  font-size: 16px;
+  text-align: center;
+  width: 310px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.bttnguess {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 16px;
+  color: #FFF;
+  font-size: 16px;
+  background-color: #929497;
+  border-radius: 30px;
+}
+
+.bttnclear {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 16px;
+  color: #FFF;
+  font-size: 16px;
+  background-color: #929497;
+  border-radius: 30px;
+}
+
+.bttnreset {
+  width: 310px;
+  margin: 16px 0px 16px 0px;
+  color: #FFF;
+  font-size: 16px;
+  background-color: #929497;
+  border-radius: 30px;
+}
+
+#lastguess {
+  font-size: 96px;
+  color: #EB008B;
+  margin: 0px;
+}
+
+button:active {
+  border: none;
+  background-color: #929297
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #EB008B;
+}
+
+button:disabled {
+  background-color: #D0D2D3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
