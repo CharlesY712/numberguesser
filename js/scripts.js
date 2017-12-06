@@ -1,4 +1,7 @@
-var answer = Math.floor(Math.random() * 100 + 1); 
+var min = 1
+var max = 100
+
+var answer = Math.floor(Math.random() * max + min); 
 
 
 // var userGuess = document.querySelector('#userguess');
@@ -8,6 +11,8 @@ var answer = Math.floor(Math.random() * 100 + 1);
 // var lastGuess = document.querySelector('#lastguess');
 // var result = document.querySelector('#result');
 // var bttnReset = document.querySelector('.bttnreset');
+
+// On player select, generate and display min and max
 
 
 

@@ -14,40 +14,59 @@ header {
 }
 
 h1 {
+  font-size: 50px;  
   display: inline-block;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-article {
-  width: 320px;
-  position: relative;
-  left: 320px;
+h2 {
+  margin-bottom: 10px;
 }
 
-section {
-  display: inline-block;
-  width: 315px;
-  text-align: center;
-}
-
-#titlenumber {
+h3 {
   color: #ED458B;
-  padding-right: 15px;
 }
 
-#titleguesser {
-  color: #E6E7E8;
-  font-weight: lighter;
+article {
+  width: 960px;
+  position: relative;
 }
 
-#userguess {
-  font-size: 16px;
+button {
+  height: 30px;
+}
+
+button:active {
+  border: none;
+  background-color: #929297
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #EB008B;
+}
+
+button:disabled {
+  background-color: #D0D2D3
+}
+
+.pinkbttn {
+  width: 150px;
+  background-color: #EB008B;
+  color: white;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.playercontrolls {
+  display: inline-block;
+  width: 236px;
   text-align: center;
-  width: 310px;
-  box-sizing: border-box;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .bttnguess {
@@ -79,36 +98,77 @@ section {
   border-radius: 30px;
 }
 
+#section1 {
+  position: absolute;
+  left: 0px;
+  width: 240px;
+  height: 450px;
+  text-align: center;
+  background-color: #929497;
+  border: solid 5px white;
+  box-sizing: border-box;
+}
+
+#section2 {
+  position: absolute;
+  left: 240px;
+  width: 480px;
+  height: 450px;
+  text-align: center;
+}
+
+#section3 {
+  position: absolute;
+  left: 720px;
+  width: 240px;
+  height: 450px;
+  text-align: center;
+  background-color: #929497;
+  border: solid 5px white;
+  box-sizing: border-box;
+}
+
+#section4 {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  height: 120px;
+  width: 960px;
+  background-color: #404041;
+}
+
+#titlenumber {
+  color: #ED458B;
+  padding-right: 15px;
+}
+
+#titleguesser {
+  color: #E6E7E8;
+  font-weight: lighter;
+}
+
+#userguess {
+  font-size: 25px;
+  text-align: center;
+  width: 310px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 #lastguess {
-  font-size: 96px;
+  font-size: 150px;
   color: #EB008B;
+  margin: -16px 0px -16px 0px;
+}
+
+#guessintro {
   margin: 0px;
 }
 
-button:active {
-  border: none;
-  background-color: #929297
+#result {
+  margin: 0px;
 }
-
-button:focus {
-  outline: none;
-}
-
-button:hover {
-  background-color: #EB008B;
-}
-
-button:disabled {
-  background-color: #D0D2D3
-}
-
-
-
-
-
-
-
-
 
 
 

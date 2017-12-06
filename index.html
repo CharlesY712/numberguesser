@@ -10,19 +10,55 @@
     <h1 id="titlenumber">Number</h1><h1 id="titleguesser">Guesser</h1>
   </header>
   <article>
-  <section>
-    <input id="userguess" type="text" name="EnterGuess" placeholder="Enter Your Guess"><br>
-    <button type="button" class="bttnguess" name="Guess">Guess</button>
-    <button type="button" class="bttnclear" name="Clear">Clear</button>
-  </section>
-  <section>
-    <p id="guessintro">Your last guess was</p>
-    <p id="lastguess">?</p>
-    <p id="result">Result</p>
-  </section>
-  <section>
-    <button type="button" class="bttnreset" name="Reset">Reset</button>
-  </section>
+
+    <section id="section1">
+      <h2>Number of Players</h2>
+      <button class="pinkbttn" id="oneplayer">1 Player</button>
+      <button class="pinkbttn" id="twoplayer">2 Players</button><br>
+      <button class="pinkbttn" id="threeplayer">3 Players</button>
+      <button class="pinkbttn" id="fourplayer">4 Players</button><br>
+      <h2>Score</h2>
+      <p>Player 1 = <span>?</span></p>
+      <p>Player 2 = <span>?</span></p>
+      <p>Player 3 = <span>?</span></p>
+      <p>Player 4 = <span>?</span></p>
+    </section>
+    <section id="section2">
+      <input id="userguess" type="text" name="EnterGuess" placeholder="Enter Your Guess"><br>
+      <button type="button" class="bttnguess" name="Guess">Guess</button>
+      <button type="button" class="bttnclear" name="Clear">Clear</button>
+      <p id="guessintro">Your last guess was</p>
+      <p id="lastguess">?</p>
+      <p id="result">Result</p>
+      <button type="button" class="bttnreset" name="Reset">Reset</button>
+    </section>
+    <section id="section3">
+      <h2>Difficulty Settings</h2>
+      <p>Current min = <span class="min">?</span></p>
+      <p>Current max = <span class="max">?</span></p>
+      <button class="pinkbttn">Min +10</button><br>
+      <button class="pinkbttn">Min -10</button><br>
+      <button class="pinkbttn">Max +10</button><br>
+      <button class="pinkbttn">Max +10</button><br>
+    </section>
+    <section id="section4">
+      <section class="playercontrolls">
+        <h3>Player 1</h3>
+        <button class="pinkbttn" id="player1submit">Guess</button>
+      </section>
+      <section class="playercontrolls">
+        <h3>Player 2</h3>
+        <button class="pinkbttn" id="player2submit">Guess</button>
+      </section>
+      <section class="playercontrolls">
+        <h3>Player 3</h3>
+        <button class="pinkbttn" id="player3submit">Guess</button>
+      </section>
+      <section class="playercontrolls">
+        <h3>Player 4</h3>
+        <button class="pinkbttn" id="player1submit">Guess</button>
+      </section>
+    </section>
   </article>
   <script src="js/scripts.js"></script>
 </body>
