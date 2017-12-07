@@ -95,6 +95,7 @@ button:disabled {
   font-size: 16px;
   background-color: #929497;
   border-radius: 30px;
+
 }
 
 .bttnreset {
@@ -154,11 +155,11 @@ button:disabled {
 
 #titleguesser {
   color: #E6E7E8;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 #userguess {
-  font-size: 25px;
+  font-size: 16px;
   text-align: center;
   width: 310px;
   box-sizing: border-box;
@@ -170,14 +171,19 @@ button:disabled {
   font-size: 150px;
   color: #EB008B;
   margin: -16px 0px -16px 0px;
+  visibility: hidden;
 }
 
 #guessintro {
   margin: 0px;
+  visibility: hidden;
 }
 
 #result {
   margin: 0px;
+  color: black;
+  font-weight: normal;
+  visibility: hidden;
 }
 
 #phase4 {
@@ -191,8 +197,6 @@ button:disabled {
   border-radius: 30px;
   visibility: visible;
 }
-
-
 
 
 
