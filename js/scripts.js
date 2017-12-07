@@ -1,19 +1,26 @@
 var min = 1
 var max = 100
 
-var answer = Math.floor(Math.random() * max + min); 
+var answer = Math.floor(Math.random() * max + min);
+document.querySelector('#currentmin').innerText = min;
+document.querySelector('#currentmax').innerText = max;
 
+var phase4 = document.querySelector('#phase4')
 
-// var userGuess = document.querySelector('#userguess');
-// var bttnGuess = document.querySelector('.bttnguess');
-// var bttnClear = document.querySelector('.bttnclear');
-// var guessIntro = document.querySelector('#guessintro');
-// var lastGuess = document.querySelector('#lastguess');
-// var result = document.querySelector('#result');
-// var bttnReset = document.querySelector('.bttnreset');
+phase4.addEventListener('click', function() {
+  document.querySelector('#section1').style.visibility = "visible";
+  document.querySelector('#section3').style.backgroundColor ="#D0D2D3";
+  document.querySelector('#section4').style.visibility = "visible";
+  document.querySelector('#phase4').style.visibility = "hidden";
+});
 
-// On player select, generate and display min and max
+var playerbttn = document.querySelector('.playerbttn');
 
+playerbttn.addEventListener('click', function() {
+  answer = Math.floor(Math.random() * max + min);
+  document.querySelector('#currentmin').innerText = min;
+  document.querySelector('#currentmax').innerText = max;
+});
 
 
 

@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   margin-bottom: 10px;
+  color: #ED458B;
 }
 
 h3 {
@@ -35,11 +36,12 @@ article {
 
 button {
   height: 30px;
+  background-color: #929497;
 }
 
 button:active {
   border: none;
-  background-color: #929297
+  background-color: #929497;
 }
 
 button:focus {
@@ -51,12 +53,19 @@ button:hover {
 }
 
 button:disabled {
-  background-color: #D0D2D3
+  background-color: #D0D2D3;
 }
 
-.pinkbttn {
+.diffbttn {
   width: 150px;
-  background-color: #EB008B;
+  color: white;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.playerbttn {
+  width: 150px;
   color: white;
   border-radius: 30px;
   margin-top: 5px;
@@ -104,9 +113,10 @@ button:disabled {
   width: 240px;
   height: 450px;
   text-align: center;
-  background-color: #929497;
+  background-color: #D0D2D3;
   border: solid 5px white;
   box-sizing: border-box;
+  visibility: hidden;
 }
 
 #section2 {
@@ -123,7 +133,7 @@ button:disabled {
   width: 240px;
   height: 450px;
   text-align: center;
-  background-color: #929497;
+  background-color: white;
   border: solid 5px white;
   box-sizing: border-box;
 }
@@ -135,6 +145,7 @@ button:disabled {
   height: 120px;
   width: 960px;
   background-color: #404041;
+  visibility: hidden;
 }
 
 #titlenumber {
@@ -170,7 +181,18 @@ button:disabled {
   margin: 0px;
 }
 
-
+#phase4 {
+  position: absolute;
+  top: 400px;
+  left: 325px;
+  width: 310px;
+  margin: 16px 0px 16px 0px;
+  color: #FFF;
+  font-size: 16px;
+  background-color: #929497;
+  border-radius: 30px;
+  visibility: visible;
+}
 
 
 

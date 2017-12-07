@@ -13,10 +13,10 @@
 
     <section id="section1">
       <h2>Number of Players</h2>
-      <button class="pinkbttn" id="oneplayer">1 Player</button>
-      <button class="pinkbttn" id="twoplayer">2 Players</button><br>
-      <button class="pinkbttn" id="threeplayer">3 Players</button>
-      <button class="pinkbttn" id="fourplayer">4 Players</button><br>
+      <button class="playerbttn" id="oneplayer">1 Player</button>
+      <button class="playerbttn" id="twoplayer">2 Players</button><br>
+      <button class="playerbttn" id="threeplayer">3 Players</button>
+      <button class="playerbttn" id="fourplayer">4 Players</button><br>
       <h2>Score</h2>
       <p>Player 1 = <span>?</span></p>
       <p>Player 2 = <span>?</span></p>
@@ -34,31 +34,32 @@
     </section>
     <section id="section3">
       <h2>Difficulty Settings</h2>
-      <p>Current min = <span class="min">?</span></p>
-      <p>Current max = <span class="max">?</span></p>
-      <button class="pinkbttn">Min +10</button><br>
-      <button class="pinkbttn">Min -10</button><br>
-      <button class="pinkbttn">Max +10</button><br>
-      <button class="pinkbttn">Max +10</button><br>
+      <p class="pinkletters">Current min = <span id="currentmin">?</span></p>
+      <p class="pinkletters">Current max = <span id="currentmax">?</span></p> 
+      <button class="diffbttn" id="minplus10">Min +10</button><br>
+      <button class="diffbttn" id="minminus10">Min -10</button><br>
+      <button class="diffbttn" id="maxplus10">Max +10</button><br>
+      <button class="diffbttn" id="maxminus10">Max +10</button><br>
     </section>
     <section id="section4">
       <section class="playercontrolls">
         <h3>Player 1</h3>
-        <button class="pinkbttn" id="player1submit">Guess</button>
+        <button class="diffbttn" id="player1submit">Guess</button>
       </section>
       <section class="playercontrolls">
         <h3>Player 2</h3>
-        <button class="pinkbttn" id="player2submit">Guess</button>
+        <button class="diffbttn" id="player2submit">Guess</button>
       </section>
       <section class="playercontrolls">
         <h3>Player 3</h3>
-        <button class="pinkbttn" id="player3submit">Guess</button>
+        <button class="diffbttn" id="player3submit">Guess</button>
       </section>
       <section class="playercontrolls">
         <h3>Player 4</h3>
-        <button class="pinkbttn" id="player1submit">Guess</button>
+        <button class="diffbttn" id="player1submit">Guess</button>
       </section>
     </section>
+      <button id="phase4">Ready for Phase 4?</button>
   </article>
   <script src="js/scripts.js"></script>
 </body>
