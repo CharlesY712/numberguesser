@@ -9,12 +9,14 @@ var max = 100;
 
 var answer = Math.floor(Math.random() * max + min);
 
+// 
 // function setminmax(){
   // currentMin = document.querySelector('#currentmin');
   // currentMin.innerText = min;
   // currentMax = document.querySelector('#currentmax');
   // currentMax.innerText = max;
 // }
+// 
 
 var currentMin = document.querySelector('#currentmin');
 currentMin.innerText = min;
