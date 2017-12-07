@@ -7,8 +7,7 @@ body {
 }
 
 header {
-  background-color: #404041;
-  font-size: 20px; 
+  background-color: #404041; 
   text-align: center;
   width: 960px;
 }
@@ -189,7 +188,6 @@ button:disabled {
   margin: 16px 0px 16px 0px;
   color: #FFF;
   font-size: 16px;
-  background-color: #929497;
   border-radius: 30px;
   visibility: visible;
 }
