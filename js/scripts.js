@@ -99,7 +99,13 @@ var p4Score = document.querySelector('#p4score').innerText = 0;
 
 var userGuess = document.querySelector('#userguess');
 
-userGuess.placeholder = ('Guess a number between ' + min.toString() + ' and ' + max.toString() + '.');  
+userGuess.placeholder = ('Guess a number between ' + min.toString() + ' and ' + max.toString() + '.');
+
+userGuess.onkeypress = function(e) {
+  if (e.which < 48 || e.which > 57) {
+        return(false);
+    }
+}  
 
 userGuess.addEventListener('input', function() {
     document.querySelector('.bttnclear').disabled = false;
